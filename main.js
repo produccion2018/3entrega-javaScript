@@ -111,7 +111,7 @@ function renderStore() {
         console.log(db, shoppingCart);
         renderShoppingCart();
       } else {
-        alert("Ya no hay existencia de ese artículo");
+        alert("Ya no hay existencia de ese curso");
       }
     });
   });
