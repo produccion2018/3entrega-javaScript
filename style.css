@@ -1,0 +1,73 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+/* nav */
+.nav-link{
+  font-family: "Roboto", sans-serif;
+  color: white;
+  font-weight: bold;
+  font-size: 1rem
+ 
+}
+.navbar {
+  padding: 0,1rem;
+  background-color: #0981f1;
+}
+
+.navbar-collapse {
+  align-items: center;
+  justify-content: space-between;  
+}
+
+
+#store-container {
+  display: flex;
+  gap: 10px;
+}
+
+#store-container .item {
+  border: solid 3px #f10505;
+  padding: 20px;
+}
+
+#shopping-cart-container {
+  position: absolute;
+  right: 0;
+  width: 300px;
+  border: solid 1px #f70808e5;
+  padding: 10px;
+}
+
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
+}
+
+.item .title {
+  font-weight: bold;
+}
+.item .price {
+  color: #0f0f0f;
+  font-weight: bold;
+}
+.item div {
+  padding: 5px 0;
+}
+
+.total {
+  padding: 10px 0;
+  font-weight: bold;
+  font-size: 20px;
+}
+button {
+
+border: none;
+  background-color: orange;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
